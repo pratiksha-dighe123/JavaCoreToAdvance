@@ -19,7 +19,7 @@ public class DecToBin {
     public static void main(String[] args){
         int decNum;
         DecToBin db = new DecToBin();
-        System.out.println(db.conversion(50));
+        System.out.println("The binary no is" +db.conversion(50));
     }
 
 }

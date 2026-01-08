@@ -2,9 +2,11 @@ package number_system;
 
 public class Demo {
     public static void main() {
-        String str = "abc";
-        System.out.println(str);
-        str += "efg";
-        System.out.println(str);
+        String str = "Hello World";
+
+        String[] words= str.split(" ");
+
+        System.out.println(words[1]+" "+ words[0]);
+
     }
 }

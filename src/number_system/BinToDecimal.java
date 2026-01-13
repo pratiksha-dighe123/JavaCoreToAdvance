@@ -18,7 +18,7 @@ public class BinToDecimal {
     public static void main(String[] args){
         int binNum;
         BinToDecimal bd = new BinToDecimal();
-        System.out.println("Binary Number : " +bd.conversion(1100101));
+        System.out.println("Binary Number: " +bd.conversion(1100101));
     }
 
 

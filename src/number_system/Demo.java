@@ -6,6 +6,7 @@ public class Demo {
 
         String[] words= str.split(" ");
 
+        System.out.println("The string is:");
         System.out.println(words[1]+" "+ words[0]);
 
     }
